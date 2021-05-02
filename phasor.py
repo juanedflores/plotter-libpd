@@ -57,11 +57,6 @@ while 1:
     outp = m.process(data)
     stream.write(bytes(outp))
 
-    # for line in f:
-    #     l = line.strip()
-    #     time.sleep(1)
-    #     print('Sending ' + l)
-
 
 f.close()
 stream.close()
